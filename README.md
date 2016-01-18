@@ -2,8 +2,8 @@
 
 #### 1.1. What you learn at this section?
 
-&nbsp;&nbsp;##### 1.1.1. Initiate Angular App using `ng-app`
-&nbsp;&nbsp;##### 1.1.2. Data initialization using `ng-init`
+##### &nbsp;&nbsp; 1.1.1. Initiate Angular App using `ng-app`
+##### &nbsp;&nbsp; 1.1.2. Data initialization using `ng-init`
 
 
 #### 1.2. [explanation](https://github.com/sijanonly/angularjs-handson/blob/master/example1.ipynb)
