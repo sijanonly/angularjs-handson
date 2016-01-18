@@ -1,7 +1,6 @@
 
-###### Our initial base.html file :
 
-#### Visit our [base.html](https://github.com/sijanonly/angularjs-handson/blob/master/base.html) file.
+#### Visit our [base file](https://github.com/sijanonly/angularjs-handson/blob/master/base.html) file.
 
 ##### Let us include following .css and .js files in our base file. NOTE : I
 have used the   [CDN for bootstrap](https://www.bootstrapcdn.com/).
