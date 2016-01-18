@@ -21,24 +21,49 @@ r.min.js"></script> `
 ng-app>`
 
 
-#### 4. Now, let us initialize data for our application with `ng-init` as follow
-:
+#### 4. Now, let us initialize data for our application with `ng-init` as follow :
+
+     <div class="row row-content"
+          ng-init="
+             star=
+             {
+               name:'Angelina Jolie',
+               image: 'images/angelina.jpg',
+               dob: 'June 4, 1975',
+               description:'Born in Los Angeles, California, on June 4, 
+               1975, Angelina Jolie starred in the HBO biopic Gia before 
+               earning an Academy Award for best supporting actress for 
+               Girl, Interrupted. Jolie has become one of Hollywood top 
+               marquee names, having starred in movies like Wanted, Mr. and 
+               Mrs. Smith, Salt and Changeling, earning her first lead 
+               actress Oscar nod for the latter.'
+            }">
+
+#### 5. Here we define a javascript array `star` with keys 'name', 'image',
+'dob' and 'description'.
 
 
-    
-    
-         <div class="row row-content"
-                          ng-init="
-                             star=
-                             {
-                               name:'Angelina Jolie',
-                               image: 'images/angelina.jpg',
-                               dob: 'June 4, 1975',
-                               
-                               description:'Born in Los Angeles, California, on June 4, 1975, Angelina Jolie starred in the HBO biopic Gia before earning an Academy Award for best supporting actress for Girl, Interrupted. Jolie has become one of Hollywood top marquee names, having starred in movies like Wanted, Mr. and Mrs. Smith, Salt and Changeling, earning her first lead actress Oscar nod for the latter.',
-                               comment: ''
-                            }">
+#### 6. Now, we can access the attributes with `{{star.name}}`, `{{star.image}}`
+and so on as in following :
 
+    <div class="media">
+        <div class="media-left media-middle">
+            <a href="#">
+            <img class="media-object img-rounded" width="60" height="90" 
+             ng-src={{star.image}} alt="Angelina">
+            </a>
+        </div>
+        <div class="media-body">
+            <h2 class="media-heading">{{star.name}}
+             <span class="label label-danger">superstar</span></h2>
+                <blockquote>
+                    <p>{{star.description}}</p>
+                </blockquote>
+                <blockquote>
+                    <p>{{star.dob}}</p>
+                </blockquote>
+        </div>
+    </div>
 
 
     
