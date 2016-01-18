@@ -22,7 +22,7 @@ ng-app>`
 
 
 #### 4. Now, let us initialize data for our application with `ng-init` as follow :
-'''
+
      <div class="row row-content"
           ng-init="
              star=
@@ -38,7 +38,7 @@ ng-app>`
                Mrs. Smith, Salt and Changeling, earning her first lead 
                actress Oscar nod for the latter.'
             }">
-'''
+
 
 #### 5. Here we define a javascript array `star` with keys 'name', 'image',
 'dob' and 'description'.
@@ -46,7 +46,7 @@ ng-app>`
 
 #### 6. Now, we can access the attributes with `{{star.name}}`, `{{star.image}}`
 and so on as in following :
-'''
+
     <div class="media">
         <div class="media-left media-middle">
             <a href="#">
@@ -65,7 +65,7 @@ and so on as in following :
                 </blockquote>
         </div>
     </div>
-'''
+
 
 
     
