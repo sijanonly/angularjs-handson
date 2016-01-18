@@ -1,5 +1,3 @@
-Learn AngularJS Components
-
 
 ###### Our initial base.html file :
 
