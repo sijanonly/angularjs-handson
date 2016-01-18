@@ -1,6 +1,5 @@
 
-#### 1. Visit our [base.html](https://github.com/sijanonly/angularjs-
-handson/blob/master/base.html) file.
+#### 1. Visit our [base.html](https://github.com/sijanonly/angularjs-handson/blob/master base.html) file.
 
 #### 2. Let us include following .css and .js files in our base file. NOTE : I
 have used the   [CDN for bootstrap](https://www.bootstrapcdn.com/).
@@ -17,8 +16,7 @@ r.min.js"></script> `
 
 
 #### 3. Next we configure our web page to be an Angular application.
-##### Include  ng-app angular directive to `<html>` tag. i.e ` <html lang="en"
-ng-app>`
+##### Include  ng-app angular directive to `<html>` tag. i.e ` <html lang="en" ng-app>`
 
 
 #### 4. Now, let us initialize data for our application with `ng-init` as follow :
@@ -40,8 +38,7 @@ ng-app>`
             }">
 
 
-#### 5. Here we define a javascript array `star` with keys 'name', 'image',
-'dob' and 'description'.
+#### 5. Here we define a javascript array `star` with keys 'name', 'image', 'dob' and 'description'.
 
 
 #### 6. Now, we can access the attributes with `{{star.name}}`, `{{star.image}}`
