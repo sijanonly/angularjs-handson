@@ -32,7 +32,6 @@
                            Mrs. Smith, Salt and Changeling, earning her first lead 
                            actress Oscar nod for the latter.',
                            comment : ''
-
                         }">
                        
              <div class="col-xs-12">
@@ -52,6 +51,18 @@
                             </blockquote>
                             <blockquote>
                                 <p>{{star.dob}}</p>
+                            </blockquote>
+                            <blockquote>
+                                <div class="media">
+                                  <div class="media-left media-middle">
+                                    <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
+                                  </div>
+                                  <div class="media-body">
+                                    
+                                    <p class="bg-success">{{star.comment}}</p>
+                                  </div>
+                                </div>
+                                 <input type="text" ng-model="star.comment">
                             </blockquote>
                     </div>
                 </div>
